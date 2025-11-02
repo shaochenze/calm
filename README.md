@@ -17,7 +17,7 @@ This is achieved through a two-stage process:
 1.  **A high-fidelity autoencoder** learns to compress K tokens into a single vector and reconstruct them with near-perfect accuracy.
 2.  **A continuous-domain language model** then performs autoregressive prediction in this vector space.
 
-An in-depth explaination of CALM is available [here](https://shaochenze.github.io/blog/2025/CALM).
+An in-depth explaination of CALM is available in [this blog](https://shaochenze.github.io/blog/2025/CALM).
 
 ### Key Features
 
