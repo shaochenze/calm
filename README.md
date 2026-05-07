@@ -285,7 +285,3 @@ torchrun --nnodes 1 --node_rank 0 --nproc_per_node 8 \
 ## Connection to Prior Work
 
 This work builds on insights from our prior research on [patch-level training](https://github.com/shaochenze/PatchTrain), which reduces training costs by 50% by grouping multiple tokens into a single 'patch' and training the model on a next-patch prediction objective. However, this approach was ultimately limited by the discrete nature of text, leaving inference still token-by-token. CALM overcomes this by shifting to a continuous domain, where semantic bandwidth becomes directly scalable.
-
-## Contact
-
-If you have any questions, feel free to submit an issue or contact `shaochenze@deepseek.com`.
